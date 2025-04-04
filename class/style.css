@@ -67,3 +67,12 @@ header {
     cursor: hei; 
     width: 400px; 
 }
+
+.terms {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-inline: 150px;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    position: relative;
+}
