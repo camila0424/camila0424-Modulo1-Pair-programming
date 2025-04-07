@@ -26,11 +26,13 @@ header {
 
 .logo {
     height: 40px;
+    margin-left: 20px;
 }
 
 .menu {
     font-size: 24px;
     color: white;
+    margin-right: 20px;
 }
 
 /* Sección de promoción */
@@ -41,14 +43,16 @@ header {
 
 .promo {
     background-color: #6d9aee;
-    padding: 40px 20px;
+    padding-top: 40px;
     color: white;
     text-align: center;
+    
 }
 
 .promo h1 {
     font-size: 24px;
     margin-bottom: 10px;
+   
 }
 
 .promo p {
@@ -75,4 +79,19 @@ header {
     opacity: 0.9;
     margin-bottom: 30px;
     position: relative;
+}
+
+.beneficios{
+  background-color: white;  
+  color: black;
+  box-sizing: border-box;
+  margin: 0px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 60px;
+  
+ 
+  padding: 0px;
+
 }
