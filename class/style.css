@@ -3,18 +3,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+ }
+
+
+/*Se agrega la fuente vista en clase roboto para toda la página*/
+:root {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
+
 body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Contenedor principal */
-
+.container-madre {
+    position: relative;
+    overflow: visible;
+    flex: 1;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+}
 /* Encabezado */
 header {
     display: flex;
@@ -26,13 +51,16 @@ header {
 
 .logo {
     height: 40px;
-    margin-left: 20px;
+
 }
+
 
 .menu {
     font-size: 24px;
     color: white;
-    margin-right: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 /* Sección de promoción */
@@ -43,16 +71,21 @@ header {
 
 .promo {
     background-color: #6d9aee;
-    padding-top: 40px;
+   /* padding: 40px 20px;*//* le he quitado el padding para que no me de error */
     color: white;
     text-align: center;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
-.promo h1 {
-    font-size: 24px;
+
+.promo_h1 {
+    font-size: 50px;
     margin-bottom: 10px;
-   
+    margin-top: 50px;
+           
 }
 
 .promo p {
@@ -68,30 +101,103 @@ header {
     font-weight: bold;
     border: none;
     border-radius: 50px;
-    cursor: hei; 
+    cursor: pointer; 
     width: 400px; 
+
 }
 
 .terms {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 15px;
-    margin-inline: 150px;
-    opacity: 0.9;
-    margin-bottom: 30px;
-    position: relative;
+    opacity: 0.8;
 }
 
+
+/*beneficios*/
 .beneficios{
   background-color: white;  
   color: black;
-  box-sizing: border-box;
   margin: 0px;
   display: inline-flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   margin-top: 60px;
-  
- 
   padding: 0px;
-
 }
+
+.beneficios h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px; 
+    margin-top: 60px;
+    color: black;
+}
+
+.benefits-list {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.benefits-list li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 110px;
+   
+}
+
+.icon {
+    font-size: 32px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.benefits-list h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px; 
+    padding: 0;
+    font-size: 25px;
+    color: #333;
+}
+
+.benefits-list p {
+    display: flex;
+    align-items: left;
+    font-size: 20px;
+    color: #666;
+} 
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (min-width: 480px) {
+    body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promo_h1 {
+    font-size: auto;
+    margin-bottom: 10px;
+    margin-top: 80px;
+     
+}
+
+}*/
+

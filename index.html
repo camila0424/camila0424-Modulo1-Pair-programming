@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./class/style.css" />
   </head>
   <body>
-    <div >
+    <div class="container-madre">
       <!-- Encabezado -->
       <header class="header">
         
@@ -20,19 +25,20 @@
     </main>
       <!-- Sección de promoción -->
       <section class="promo">
-        <h1>Prueba Premium gratis 3 meses</h1>
+  <h1 class="promo_h1">Prueba Premium<!--<br>--> gratis 3 meses</h1>
         <p class="promo1">
-          Escucha millones de canciones sin anuncios, a la carta y sin
+          Escucha millones de canciones sin anuncios, <br> a la carta y sin 
           conexión.
         </p>
         <button class="btn">VER PLANES</button>
         <p class="terms">
           Rigen términos y condiciones. Los tres meses gratis no están
           disponibles para usuarios que ya hayan probado Premium.
-
+          
+          <!-- Beneficios -->
           <section class="beneficios">
             <h2>¿Por qué pasarte a Premium?</h2>
-            <div class="benefits">
+           <!-- /*<div class="benefits">
               <img src="" alt="descarga_musica">
               <h3>Descarga música</h3>
               <p>Llévala siempre contigo.</p>
@@ -55,5 +61,41 @@
             </div>
 
           </section>
-        </p>
-      </section>
+        </p>-->
+
+      
+        <ul class="benefits-list">
+          <li>
+            <span class="icon">📥</span>
+            <div>
+              <h3>Descarga música.</h3>
+              <p>Lleva siempre contigo.</p>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🚫</span>
+            <div>
+              <h3>Sin anuncios.</h3>
+              <p>Disfruta de música sin interrupciones.</p>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🎵</span>
+            <div>
+              <h3>Escucha lo que quieras</h3>
+              <p>Incluso en el móvil.</p>
+            </div>
+          </li>
+          <li>
+            <span class="icon">⏭️</span>
+            <div>
+              <h3>Salta todas las canciones que quieras.</h3>
+              <p>Simplemente dale a siguiente.</p>
+            </div>
+          </li>
+        </ul>
+      </section> 
+    </main>
+  </div>    
+  </body>
+</html>
