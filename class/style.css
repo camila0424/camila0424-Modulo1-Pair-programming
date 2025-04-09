@@ -178,7 +178,23 @@ header {
     text-align: left;
     width: 100%;
     font-size: 15px;
-    padding: ;
+    padding: 30px 10px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+
+   
+}
+
+.footer links{
+    margin-bottom: 10px;
+    color: white;
 
 }
 
