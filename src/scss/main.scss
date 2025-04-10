@@ -1,0 +1,45 @@
+@use './Sections_mobile/spoti_mobile_header.scss';
+@use './Sections_mobile/spoti_mobile_promo.scss';
+@use './Sections_mobile/spoti_mobile_beneficios.scss';
+@use './Sections_mobile/spoti_mobile_footer.scss';
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container-madre {
+  position: relative;
+  overflow: visible;
+  flex: 1;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: white;
+  min-height: 100vh;
+}
