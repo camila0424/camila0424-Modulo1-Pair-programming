@@ -55,7 +55,7 @@ header {
 }
 
 
-.menu {
+.menu_hamburguesa {
     font-size: 24px;
     color: white;
     margin-right: 10px;
@@ -192,20 +192,13 @@ header {
    
 }
 
-.footer links{
+.footer link {
     margin-bottom: 10px;
     color: white;
 
 }
 
-
-
-
-
-
-
-
-/*@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
     body {
     background-color: white;
     display: flex;
@@ -219,5 +212,5 @@ header {
      
 }
 
-}*/
+
 
