@@ -3,10 +3,10 @@
     color: white;
     width: 100%;
     padding: 30px 10px;
-    text-align: center;
     font-size: 0.875rem;
     margin-top: 50px;
     height: 150px;
+    justify-content: space-between;
 }
 
 .footer-links a {
@@ -18,4 +18,18 @@
 
 .footer a:hover {
     text-decoration: underline;
+}
+.Legal{
+   display: block;
+   justify-content: left;
+}
+
+.idioma {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+}
+
+.2019{
+    
 }
