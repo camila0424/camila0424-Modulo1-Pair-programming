@@ -36,8 +36,7 @@ body {
   position: relative;
   overflow: visible;
   flex: 1;
-  width: 100%;
-  max-width: 480px;
+  min-width: 100%;
   margin: 0,0,0,0;
   background-color: white;
   min-height: 100vh;
